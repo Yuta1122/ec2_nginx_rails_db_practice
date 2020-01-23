@@ -1,0 +1,15 @@
+current directory: /Users/shimabukuroyuuta/study/codebase/monthly-tech-training/ec2_nginx_rails_db_practice/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+/Users/shimabukuroyuuta/.rbenv/versions/2.6.5/bin/ruby -I /Users/shimabukuroyuuta/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200123-74163-1q6i7pv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shimabukuroyuuta/study/codebase/monthly-tech-training/ec2_nginx_rails_db_practice/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/shimabukuroyuuta/study/codebase/monthly-tech-training/ec2_nginx_rails_db_practice/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/shimabukuroyuuta/study/codebase/monthly-tech-training/ec2_nginx_rails_db_practice/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200123-74163-1aq7whh
