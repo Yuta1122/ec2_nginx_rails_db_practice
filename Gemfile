@@ -68,3 +68,6 @@ gem 'html2slim'
 
 # install bootstrap
 gem 'bootstrap'
+
+# 環境変数の扱いを楽にする
+gem 'dotenv-rails'
