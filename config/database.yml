@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: ec2_nginx_rails_db_practice_production
-  username: ec2_nginx_rails_db_practice
-  password: <%= ENV['EC2_NGINX_RAILS_DB_PRACTICE_DATABASE_PASSWORD'] %>
+  database: ENV['DATABASE']
+  username: ENV['UERNAME']
+  password: <%= ENV['PASSWORD'] %>
