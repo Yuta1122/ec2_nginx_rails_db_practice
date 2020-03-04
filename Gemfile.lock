@@ -79,6 +79,10 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.6)
+    dotenv (2.7.5)
+    dotenv-rails (2.7.5)
+      dotenv (= 2.7.5)
+      railties (>= 3.2, < 6.1)
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.12.1)
@@ -115,7 +119,7 @@ GEM
     pg (1.2.2)
     popper_js (1.16.0)
     public_suffix (4.0.3)
-    puma (3.12.2)
+    puma (3.12.4)
     rack (2.1.1)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -222,11 +226,12 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  dotenv-rails
   html2slim
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2.2)
   sass-rails (~> 5.0)
   selenium-webdriver
