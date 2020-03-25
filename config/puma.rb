@@ -34,4 +34,5 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 plugin :tmp_restart
 
 # socketの設定
-# bind "unix://#{Rails.root}/tmp/sockets/puma.sock"
+# ディレクトリがない場合は作成しておく
+bind "unix://#{Rails.root}/tmp/sockets/puma.sock
