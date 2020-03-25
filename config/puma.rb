@@ -35,4 +35,4 @@ plugin :tmp_restart
 
 # socketの設定
 # ディレクトリがない場合は作成しておく
-bind "unix://#{Rails.root}/tmp/sockets/puma.sock"
+bind "unix://#{Rails.root}/tmp/sockets/puma.sock
