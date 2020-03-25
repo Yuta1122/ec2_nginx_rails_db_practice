@@ -30,9 +30,10 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 #
 # preload_app!
 
-# Allow puma to be restarted by `rails restart` command.
-plugin :tmp_restart
-
 # socketの設定
 # ディレクトリがない場合は作成しておく
 bind "unix://#{Rails.root}/tmp/sockets/puma.sock
+
+
+# Allow puma to be restarted by `rails restart` command.
+plugin :tmp_restart
